@@ -1,5 +1,5 @@
 exports.index = function(req, res) {
-	let content = {
+	/*let content = {
 		news: [
 		{
 			id: 1,
@@ -14,5 +14,6 @@ exports.index = function(req, res) {
 		]
 	}
 
-	res.json(content)
+	res.json(content)*/
+	res.render('news.twig')
 }
